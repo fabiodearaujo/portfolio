@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed w-full h-20 shadow-xl z-[100]">
-            <div className="container flex justify-between items-center h-full px-10 2xl:mx-20">
+            <div className="mx-auto container flex h-full justify-between px-10 sm:px-6 md:px-8 lg:px-10 items-center">
                 <Image className="hover:animate-spin ease-in-out" src="/assets/bar_logo.png" alt="/" width={64} height={64} />
                 <div>
                     <ul className="hidden md:flex">
