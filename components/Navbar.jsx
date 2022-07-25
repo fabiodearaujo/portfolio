@@ -23,9 +23,6 @@ const Navbar = () => {
                             <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
                         </Link>
                         <Link href="/">
-                            <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-                        </Link>
-                        <Link href="/">
                             <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
                         </Link>
                         <Link href="/">
@@ -33,6 +30,9 @@ const Navbar = () => {
                         </Link>
                         <Link href="/">
                             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
+                        </Link>
+                        <Link href="/">
+                            <li className="ml-10 text-sm uppercase hover:border-b">Journals</li>
                         </Link>
                     </ul>
                     <div onClick={toggleMenu} className="md:hidden rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer">
