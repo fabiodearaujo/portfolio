@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed w-full h-20 shadow-xl z-[100]">
-            <div className="mx-auto container flex h-full justify-between px-10 sm:px-6 md:px-8 lg:px-10 items-center">
+            <div className="container mx-auto px-10 sm:px-24 lg:px-32 xl:px-44 2xl:pl-52 flex h-full justify-between overflow-hidden items-center">
                 <Image className="hover:animate-spin ease-in-out" src="/assets/bar_logo.png" alt="/" width={64} height={64} />
                 <div>
                     <ul className="hidden md:flex">
@@ -32,7 +32,7 @@ const Navbar = () => {
                             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
                         </Link>
                         <Link href="/">
-                            <li className="ml-10 text-sm uppercase hover:border-b">Journals</li>
+                            <li className="ml-10 text-sm uppercase hover:border-b">Posts</li>
                         </Link>
                     </ul>
                     <div onClick={toggleMenu} className="md:hidden rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer">
@@ -55,9 +55,6 @@ const Navbar = () => {
                                     <li className="py-4 text-sm hover:scale-105 ease-in duration-200">Home</li>
                                 </Link>
                                 <Link href="/">
-                                    <li className="py-4 text-sm hover:scale-105 ease-in duration-200">About</li>
-                                </Link>
-                                <Link href="/">
                                     <li className="py-4 text-sm hover:scale-105 ease-in duration-200">Skills</li>
                                 </Link>
                                 <Link href="/">
@@ -65,6 +62,9 @@ const Navbar = () => {
                                 </Link>
                                 <Link href="/">
                                     <li className="py-4 text-sm hover:scale-105 ease-in duration-200">Contact</li>
+                                </Link>
+                                <Link href="/">
+                                    <li className="py-4 text-sm hover:scale-105 ease-in duration-200">Posts</li>
                                 </Link>
                             </ul>
                             <div className="pt-40">
