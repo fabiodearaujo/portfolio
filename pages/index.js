@@ -1,4 +1,8 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Skills from '../components/Skills'
+import Projects from '../components/Projects'
 
 
 export default function Home() {
@@ -7,9 +11,12 @@ export default function Home() {
       <Head>
         <title>Fabio | Software Engineer</title>
         <meta name="description" content="Fabio | Software Engineer" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/favicon.ico" />
       </Head>
-      <p>Some text</p>
+      <Navbar/>
+      <Hero/>
+      <Skills/>
+      <Projects/>
     </div>
   )
 }
