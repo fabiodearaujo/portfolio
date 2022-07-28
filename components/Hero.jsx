@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className='pt-20 md:pt-32 2xl:pt-40 w-full h-screen'>
+    <div className='pt-20 md:pt-56 w-full h-[100%]'>
       <div className='container mx-auto'> 
-        <div className="relative bg-[#bcc0c8] m-3 2xl:w-2/3 xl:w-3/4 2xl:ml-[20%] xl:ml-[15%] md:m-10 rounded-3xl shadow-lg shadow-gray-500 border-b-2 border-r-2">
+        <div className="relative bg-[#bcc0c8] m-3 2xl:w-2/3 xl:w-3/4 2xl:ml-[20%] xl:ml-[15%] md:m-10 rounded-3xl shadow-lg shadow-gray-800 border-b-2 border-r-2 border-gray-500">
               <main className="flex flex-col-reverse text-center lg:flex-row flex-wrap lg:flex-nowrap lg:justify-between p-10 sm:p-14">
                 <div className="sm:text-center lg:text-left">
                   <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl lg:text-5xl">
