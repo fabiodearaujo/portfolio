@@ -32,7 +32,7 @@ const Navbar = () => {
                             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
                         </Link>
                         <Link href="/">
-                            <li className="ml-10 text-sm uppercase hover:border-b">Posts</li>
+                            <li className="hidden ml-10 text-sm uppercase hover:border-b">Posts</li>
                         </Link>
                     </ul>
                     <div onClick={toggleMenu} className="md:hidden rounded-full shadow-lg shadow-gray-800 p-3 cursor-pointer">
@@ -64,7 +64,7 @@ const Navbar = () => {
                                     <li className="py-4 text-sm hover:scale-105 ease-in duration-200">Contact</li>
                                 </Link>
                                 <Link href="/">
-                                    <li className="py-4 text-sm hover:scale-105 ease-in duration-200">Posts</li>
+                                    <li className="hidden py-4 text-sm hover:scale-105 ease-in duration-200">Posts</li>
                                 </Link>
                             </ul>
                             <div className="pt-40">
