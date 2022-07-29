@@ -36,4 +36,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-west-1
       # Run command to sync and deploy on AWS S3
-      - run: aws s3 sync ./out s3://fabiodearaujo-portfolio
+      - run: aws s3 sync ./out s3://fabiodearaujo
