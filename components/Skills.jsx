@@ -21,7 +21,7 @@ const Skills = () => {
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/CSS'
-                                backgroundImage='/assets/badges/css3.svg'
+                                backgroundImage='/assets/badges/CSS3.svg'
                                 title='CSS3'
                             />
                             <SkillItem
