@@ -16,31 +16,37 @@ const Skills = () => {
                         <div className='flex flex-wrap items-center justify-center max-w-xl'>
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/HTML5'
-                                backgroundImage='/assets/badges/HTML5.svg'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#e34f26]'}
+                                backgroundImage='/assets/badges/html5.svg'
                                 title='HTML5'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/CSS'
-                                backgroundImage='/assets/badges/CSS3.svg'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#1572b6]'}
+                                backgroundImage='/assets/badges/css3.svg'
                                 title='CSS3'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/JavaScript'
-                                backgroundImage='/assets/badges/JavaScript.svg'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#323330]'}
+                                backgroundImage='/assets/badges/javascript.svg'
                                 title='JavaScript'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Python_(programming_language)'
-                                backgroundImage='/assets/badges/Python.svg'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#004d7a]'}
+                                backgroundImage='/assets/badges/python.svg'
                                 title='Python'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Java_(programming_language)'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#5082a2]'}
                                 backgroundImage='/assets/badges/java.svg'
                                 title='Java'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/PHP'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#563d7c]'}
                                 backgroundImage='/assets/badges/php.svg'
                                 title='PHP'
                             />
@@ -53,31 +59,37 @@ const Skills = () => {
                         <div className='flex flex-wrap items-center justify-center max-w-xl'>
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Flask_(web_framework)'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#000000]'}
                                 backgroundImage='/assets/badges/flask.svg'
                                 title='Flask'
                             />                       
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Django_(web_framework)'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#092e20]'}
                                 backgroundImage='/assets/badges/django.svg'
                                 title='Django'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Flutter_(software)'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#02569b]'}
                                 backgroundImage='/assets/badges/flutter.svg'
                                 title='Flutter'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/React_(JavaScript_library)'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#000000]'}
                                 backgroundImage='/assets/badges/reactjs.svg'
                                 title='React JS'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Next.js'
-                                backgroundImage='/assets/badges/NextJS.svg'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#000000]'}
+                                backgroundImage='/assets/badges/nextjs.svg'
                                 title='Next.JS'
                             />
                             <SkillItem
                                 skillURL='https://tailwindui.com/'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#06b6d4]'}
                                 backgroundImage='/assets/badges/tailwind.svg'
                                 title='Tailwind CSS'
                             />
@@ -90,31 +102,37 @@ const Skills = () => {
                         <div className='flex flex-wrap items-center justify-center max-w-xl'>
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Docker_(software)'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#2ca5e0]'}
                                 backgroundImage='/assets/badges/docker.svg'
                                 title='Docker'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Amazon_Web_Services'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#232f3e]'}
                                 backgroundImage='/assets/badges/aws.svg'
                                 title='AWS'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/Microsoft_Azure'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#0089d6]'}
                                 backgroundImage='/assets/badges/azure.svg'
                                 title='Microsoft Azure'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/PstgreSQL'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#336791]'}
                                 backgroundImage='/assets/badges/postgresql.svg'
                                 title='PostgreSQL'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/MongoDB'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#3f2e1e]'}
                                 backgroundImage='/assets/badges/mongodb.svg'
                                 title='MongoDB'
                             />
                             <SkillItem
                                 skillURL='https://en.wikipedia.org/wiki/GIT'
+                                decoration={'relative m-2 px-20 py-7 rounded-2xl shadow-gray-900 shadow-md  hover:scale-105 ease-in duration-300 cursor-pointer bg-[#302f2f]'}
                                 backgroundImage='/assets/badges/git.svg'
                                 title='GIT'
                             />
