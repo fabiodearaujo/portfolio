@@ -11,4 +11,6 @@ module.exports = {
       unoptimized: true,
     },
   },
+  basePath: '/portfolio',
+  assetPrefix: '/portfolio',
 }
