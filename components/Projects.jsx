@@ -27,6 +27,7 @@ const Projects = () => {
                         linkGit={'https://github.com/fabioaraujo76/studiovictoria_mp1'}
                         linkDeployed={'https://fabioaraujo76.github.io/studiovictoria_mp1/'}
                         />
+                        <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem
                             image={project2}
                             title='International Space Station'
@@ -35,6 +36,7 @@ const Projects = () => {
                             linkGit={'https://github.com/fabioaraujo76/spacestation_mp2'}
                             linkDeployed={'https://fabioaraujo76.github.io/spacestation_mp2/'}
                         />
+                        <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem
                             image={project3}
                             title='Simple Bug Tracker'
@@ -43,6 +45,7 @@ const Projects = () => {
                             linkGit={'https://github.com/fabioaraujo76/bug_tracker_mp3'}
                             linkDeployed={'https://sbug-tracker.herokuapp.com/'}
                         />
+                        <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem
                             image={project4}
                             title='Sophie Photography'
@@ -51,6 +54,7 @@ const Projects = () => {
                             linkGit={'https://github.com/fabioaraujo76/sophie-photography-mp4'}
                             linkDeployed={'https://sophiephotography.herokuapp.com/'}
                         />
+                        <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem
                             image={project5}
                             title='Personal Finance API'
@@ -59,10 +63,11 @@ const Projects = () => {
                             linkGit={'https://github.com/fabiodearaujo/PersonalFinanceApi'}
                             linkDeployed={'https://pfinanceapi.herokuapp.com/docs'}
                         />
+                        <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem
                             image={project6}
                             title='Portfolio'
-                            description='Personal Portfolio Website with Blog section.'
+                            description='Personal Portfolio Website with Blog section (Under Development).'
                             techUsed={'React, Next.js, TailwindCSS'}
                             linkGit={'https://github.com/fabiodearaujo/portfolio'}
                             linkDeployed={'/'}
