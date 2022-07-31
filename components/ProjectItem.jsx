@@ -38,7 +38,7 @@ const ProjectItem = ({image, title, description, techUsed, linkGit, linkDeployed
         </div>
         <div className='relative flex-wrap text-center mt-5'>
             <p className='visible sm:hidden text-sm mt-2'>{description}</p>
-            <p className='visible sm:hidden text-sm mt-2 text-center'>{techUsed}</p>   
+            <p className='visible sm:hidden text-sm mt-2 text-center'>{techUsed}</p>  
         </div>
     </div>         
     )
