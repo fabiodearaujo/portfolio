@@ -30,7 +30,7 @@ const Projects = () => {
                         <ProjectItem
                             image={project2}
                             title='International Space Station'
-                            description='An Interactive website about the ISS, live location, live video and Nasa Picture of the day.'
+                            description='An Interactive website about the ISS.'
                             techUsed={'HTML, CSS, JavaScript, Leaflet, OpenStreetMap, NASA API'}
                             linkGit={'https://github.com/fabioaraujo76/spacestation_mp2'}
                             linkDeployed={'https://fabioaraujo76.github.io/spacestation_mp2/'}
