@@ -43,7 +43,7 @@ const Projects = () => {
                             description='Fullstack application for a simple project management and track bugs.'
                             techUsed={'HTML, CSS, JavaScript, Python, Flask, MongoDB, OpenWeather API'}
                             linkGit={'https://github.com/fabioaraujo76/bug_tracker_mp3'}
-                            linkDeployed={'https://sbug-tracker.herokuapp.com/'}
+                            linkDeployed={'https://sbugtracker.onrender.com/'}
                         />
                         <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem
@@ -52,7 +52,7 @@ const Projects = () => {
                             description='Fullstack e-Commerce application for a fictional Photo Studio.'
                             techUsed={'HTML, CSS, JavaScript, Python, Django, PosgreSQL, Stripe, AWS S3'}
                             linkGit={'https://github.com/fabioaraujo76/sophie-photography-mp4'}
-                            linkDeployed={'https://sophiephotography.herokuapp.com/'}
+                            linkDeployed={'https://sophiephotosample.onrender.com/'}
                         />
                         <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem
@@ -61,7 +61,7 @@ const Projects = () => {
                             description='RESTful API for a personal finance application that allows CRUD operations through HTTP requests or using the  Swagger Interface.'
                             techUsed={'Python, FastAPI, PostgreSQL, SQLAlchemy, JWT, Github Actions, TDD'}
                             linkGit={'https://github.com/fabiodearaujo/PersonalFinanceApi'}
-                            linkDeployed={'https://pfinanceapi.herokuapp.com/docs'}
+                            linkDeployed={'https://personalfin.onrender.com/docs'}
                         />
                         <hr className='m-20 visible sm:hidden'></hr> 
                         <ProjectItem

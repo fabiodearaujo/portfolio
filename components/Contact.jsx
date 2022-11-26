@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { FaLinkedin, FaGithub, FaEnvelope, FaTelegram, FaSlack, FaDiscord } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaEnvelope, FaTelegram, FaSlack, FaDiscord, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'next/link'
 import App from 'next/app'
 
@@ -29,11 +29,13 @@ const Contact = () => {
                                     window.open('https://github.com/fabiodearaujo', '_blank')
                                 }
                             } />
-                            <FaTelegram size={25} className="mr-5 hover:scale-110 ease-in duration-300 hover:cursor-pointer" onClick={
+                            <FaWhatsapp size={25} className="mr-5 hover:scale-110 ease-in duration-300 hover:cursor-pointer" onClick={
                                 () => {
-                                    window.open('https://t.me/fabioaraujo76', '_blank')
+                                    window.open('https://wa.me/353876644434', '_blank')
                                 }
                             } />
+                            <a href='mailto:fabioaraujo76@gmail.com' target='_top'><FaEnvelope size={25} className="mr-5 hover:scale-110 ease-in duration-300 hover:cursor-pointer"/>
+                            </a>
                         </div>
                     </div>
                     <div className="lg:relativelg:pt-3 sm:pl-1">
